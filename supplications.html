@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prayer Times</title>
+  </head>
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      background: #000;
+      overflow: hidden;
+      user-select: none !important;
+      -webkit-user-select: none !important;
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      pointer-events: none;
+      -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    }
+
+    .overlay {
+      display: none;
+      height: 100vh;
+      width: 100%;
+      background-color: rgba(1, 1, 1, 0.1);
+      bottom: 0;
+      left: 0;
+      position: fixed;
+      right: 0;
+      top: 0;
+    }
+  </style>
+  <body>
+    <img
+      src="images/supplications.webp"
+      alt="supplications by Mustafa Mahmoud"
+    />
+    <div class="overlay"></div>
+    <script>
+      import DisableDevtool from "disable-devtool";
+
+      DisableDevtool();
+
+      document.addEventListener("contextmenu", (event) =>
+        event.preventDefault()
+      );
+
+      document.onkeydown = function (e) {
+        if (e.keyCode == 123) {
+          return false;
+        }
+
+        if (e.ctrlKey && e.shiftKey && e.keyCode == 73) {
+          return false;
+        }
+
+        if (e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+          return false;
+        }
+
+        if (e.ctrlKey && e.keyCode == 85) {
+          return false;
+        }
+
+        window.oncontextmenu = function () {
+          return false;
+        };
+      };
+    </script>
+    <script
+      disable-devtool-auto
+      src="https://cdn.jsdelivr.net/npm/disable-devtool"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Your Title, Description, Stylesheets
+    ========================================= -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="write your description here" />
+    <meta name="keywords" content="HTML, CSS, JavaScript, website" />
+    <title>Ramadan</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/ramadan.style.css" />
+    <link rel="stylesheet" href="css/responsive.style.css" />
+    <link rel="stylesheet" href="css/all.phone.screen.css" />
+  </head>
+  <body>
+    <!-- START LOADER -->
+    <div id="loading-overlay" class="d-none">
+      <div class="loader-logo"></div>
+    </div>
+    <!-- END LOADER -->
+
+    <main>
+      <div class="page-wrapper d-flex row">
+        <!-- START SIDE NAVBAR -->
+        <nav class="col-12 d-flex justify-content-end">
+          <!-- START NAVBAR ICON -->
+          <div class="hamburger-menu align-items-end m-5">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+          </div>
+          <!-- END NAVBAR ICON -->
+
+          <div class="side-nav-overlay">
+            <div class="side-nav fixed-top">
+              <div class="side-nav-sections">
+                <!-- START SECTION RAMADAN -->
+                <div class="rk-about text-center">
+                  <!-- START TITLE & PARAGRAPH & ICONS RAMADAN -->
+                  <div class="rk-about-title">
+                    <h4>بِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ</h4>
+                    <p>
+                      شَهْرُ رَمَضَانَ الَّذِي أُنزِلَ فِيهِ الْقُرْآنُ هُدًى
+                      لِّلنَّاسِ وَبَيِّنَاتٍ مِّنَ الْهُدَىٰ وَالْفُرْقَانِ ۚ
+                      فَمَن شَهِدَ مِنكُمُ الشَّهْرَ فَلْيَصُمْهُ ۖ وَمَن كَانَ
+                      مَرِيضًا أَوْ عَلَىٰ سَفَرٍ فَعِدَّةٌ مِّنْ أَيَّامٍ
+                      أُخَرَ ۗ يُرِيدُ اللَّهُ بِكُمُ الْيُسْرَ وَلَا يُرِيدُ
+                      بِكُمُ الْعُسْرَ وَلِتُكْمِلُوا الْعِدَّةَ وَلِتُكَبِّرُوا
+                      اللَّهَ عَلَىٰ مَا هَدَاكُمْ وَلَعَلَّكُمْ تَشْكُرُونَ
+                      (185)
+                    </p>
+                    <div class="card">
+                      <div class="card-body">
+                        Ramaḍân is the month in which the Quran was revealed as
+                        a guide for humanity with clear proofs of guidance and
+                        the standard ˹to distinguish between right and wrong˺.
+                        So whoever is present this month, let them fast. But
+                        whoever is ill or on a journey, then ˹let them fast˺ an
+                        equal number of days ˹after Ramaḍân˺. Allah intends ease
+                        for you, not hardship, so that you may complete the
+                        prescribed period and proclaim the greatness of Allah
+                        for guiding you, and perhaps you will be grateful.(185)
+                      </div>
+                    </div>
+                    <div class="social-icons">
+                      <a href="https://quran.com/2/185" target="_blank">
+                        Read more &#8674;
+                      </a>
+                    </div>
+                  </div>
+                  <!-- END TITLE & PARAGRAPH & ICONS RAMADAN -->
+
+                  <!-- START RAMADAN GALLERY -->
+                  <div class="rk-about-gallery d-grid">
+                    <span class="images"
+                      ><img src="images/sidenav-1.webp" alt="about-gallery"
+                    /></span>
+                    <span class="images"
+                      ><img src="images/sidenav-2.webp" alt="about-gallery"
+                    /></span>
+                    <span class="images"
+                      ><img src="images/sidenav-3.webp" alt="about-gallery"
+                    /></span>
+                    <span class="images"
+                      ><img
+                        src="images/sidenav-4.webp"
+                        alt="Photo by Mae Mu on Unsplash"
+                    /></span>
+                    <span class="images"
+                      ><img src="images/sidenav-5.webp" alt="about-gallery"
+                    /></span>
+                  </div>
+                  <div class="overlay-preview-box d-none">
+                    <div class="preview-box">
+                      <div class="details">
+                        <span class="title d-flex">
+                          Image
+                          <p class="current-img"></p>
+                          of
+                          <p class="total-img"></p>
+                        </span>
+                        <span class="icon"
+                          ><i class="fa-solid fa-xmark"></i
+                        ></span>
+                      </div>
+                      <div class="img-box">
+                        <div class="slide prev">
+                          <i class="fas fa-angle-left"></i>
+                        </div>
+                        <div class="slide next">
+                          <i class="fas fa-angle-right"></i>
+                        </div>
+                        <img src="" alt="img-box" />
+                      </div>
+                      <p class="img-box-text m-auto">
+                        this image is some of future will update in site or some
+                        image relative to the month ramadan el kareem isa so i
+                        will be happy if you have any question.
+                      </p>
+                    </div>
+                  </div>
+                  <!-- END RAMADAN GALLERY -->
+                </div>
+                <!-- END SECTION RAMADAN -->
+
+                <!-- START PRAYER TIMES -->
+                <div class="rk-prayer mt-5">
+                  <div class="rk-prayer-title text-center">
+                    <h3 class="text-uppercase fw-light">
+                      prayer <span class="fw-bold">times.</span>
+                    </h3>
+                    <p>
+                      "This future will be added on the first day of the month
+                      Ramadan El Kareem so is too much nearby enjoy our site for
+                      give some help and to help too, many ideas will add in the
+                      future don't miss it see you soon."
+                    </p>
+                  </div>
+                  <div class="prayer-times-img">
+                    <a href="prayer-times.html" target="_blank"
+                      ><img
+                        src="images/Islamic-prayer-times.webp"
+                        alt="Islamic-prayer-times" />
+                      <div class="prayer-img-overlay">
+                        <i class="fa-solid fa-magnifying-glass"></i></div
+                    ></a>
+                  </div>
+                </div>
+                <!-- END PRAYER TIMES  -->
+
+                <!-- START PRAYER TRACKER -->
+                <div class="rk-prayer-tracker mt-5">
+                  <div class="rk-prayer-title text-center">
+                    <h3 class="text-uppercase fw-light">
+                      prayer <span class="fw-bold">tracker.</span>
+                    </h3>
+                    <p>
+                      "This future will be added on the first day of the month
+                      Ramadan El Kareem so is too much nearby enjoy our site for
+                      give some help and to help too, many ideas will add in the
+                      future don't miss it see you soon."
+                    </p>
+                  </div>
+
+                  <div class="container prayer-name">
+                    <!-- TRACKER AREA FAJR -->
+                    <!-- TITLE TRACKER -->
+                    <div id="fajr">
+                      <div
+                        class="title-tracker d-flex justify-content-center text-lowercase"
+                      >
+                        <span class="text-center"
+                          ><h6>Fajr</h6>
+                          &#8211; the dawn prayer. It is a two Rakat Salaah.
+                        </span>
+                      </div>
+                      <!-- TITLE TRACKER -->
+
+                      <!-- START CHECKLIST -->
+                      <div class="form-check ps-0">
+                        <ul
+                          id="checklist"
+                          class="checklist d-flex justify-content-center mt-2 col-lg-8 col-12"
+                        ></ul>
+                      </div>
+                      <!-- END CHECKLIST -->
+
+                      <!-- START PROGRESS -->
+                      <div
+                        id="progress"
+                        class="progress mt-4"
+                        role="progressbar"
+                        aria-label="Basic example"
+                        aria-valuenow="0"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      >
+                        <div
+                          id="progress-bar"
+                          class="progress-bar"
+                          style="width: 0%"
+                        ></div>
+                      </div>
+                      <!-- END PROGRESS -->
+                    </div>
+                    <!-- TRACKER AREA FAJR -->
+
+                    <!-- TRACKER AREA DHUHR -->
+                    <div id="dhuhr">
+                      <!-- TITLE TRACKER -->
+                      <div
+                        class="title-tracker d-flex justify-content-center text-lowercase mt-5"
+                      >
+                        <span class="text-center"
+                          ><h6>Dhuhr</h6>
+                          &#8211; the early afternoon prayer. It is a four Rakat
+                          Salaah.
+                        </span>
+                      </div>
+                      <!-- TITLE TRACKER -->
+
+                      <!-- START CHECKLIST -->
+                      <div class="form-check ps-0">
+                        <ul
+                          id="checklist"
+                          class="checklist d-flex justify-content-center mt-2 col-lg-8 col-12"
+                        ></ul>
+                      </div>
+                      <!-- END CHECKLIST -->
+
+                      <!-- START PROGRESS -->
+                      <div
+                        id="progress"
+                        class="progress mt-4"
+                        role="progressbar"
+                        aria-label="Basic example"
+                        aria-valuenow="0"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      >
+                        <div
+                          id="progress-bar"
+                          class="progress-bar"
+                          style="width: 0%"
+                        ></div>
+                      </div>
+                      <!-- END PROGRESS -->
+                    </div>
+                    <!-- TRACKER AREA DHUHR -->
+
+                    <!-- TRACKER AREA ASR -->
+                    <div id="asr">
+                      <!-- TITLE TRACKER -->
+                      <div
+                        class="title-tracker d-flex justify-content-center text-lowercase mt-5"
+                      >
+                        <span class="text-center"
+                          ><h6>Asr</h6>
+                          &#8211; the late afternoon prayer. It is a four Rakat
+                          Salaah.
+                        </span>
+                      </div>
+                      <!-- TITLE TRACKER -->
+
+                      <!-- START CHECKLIST -->
+                      <div class="form-check ps-0">
+                        <ul
+                          id="checklist"
+                          class="checklist d-flex justify-content-center mt-2 col-lg-8 col-12"
+                        ></ul>
+                      </div>
+                      <!-- END CHECKLIST -->
+
+                      <!-- START PROGRESS -->
+                      <div
+                        id="progress"
+                        class="progress mt-4"
+                        role="progressbar"
+                        aria-label="Basic example"
+                        aria-valuenow="0"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      >
+                        <div
+                          id="progress-bar"
+                          class="progress-bar"
+                          style="width: 0%"
+                        ></div>
+                      </div>
+                      <!-- END PROGRESS -->
+                    </div>
+                    <!-- TRACKER AREA ASR -->
+
+                    <!-- TRACKER AREA MAGHRIB -->
+                    <div id="maghrib">
+                      <!-- TITLE TRACKER -->
+                      <div
+                        class="title-tracker d-flex justify-content-center text-lowercase mt-5"
+                      >
+                        <span class="text-center"
+                          ><h6>Maghrib</h6>
+                          &#8211; the sunset prayer. It is a three Rakat Salaah.
+                        </span>
+                      </div>
+                      <!-- TITLE TRACKER -->
+
+                      <!-- START CHECKLIST -->
+                      <div class="form-check ps-0">
+                        <ul
+                          id="checklist"
+                          class="checklist d-flex justify-content-center mt-2 col-lg-8 col-12"
+                        ></ul>
+                      </div>
+                      <!-- END CHECKLIST -->
+
+                      <!-- START PROGRESS -->
+                      <div
+                        id="progress"
+                        class="progress mt-4"
+                        role="progressbar"
+                        aria-label="Basic example"
+                        aria-valuenow="0"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      >
+                        <div
+                          id="progress-bar"
+                          class="progress-bar"
+                          style="width: 0%"
+                        ></div>
+                      </div>
+                      <!-- END PROGRESS -->
+                    </div>
+                    <!-- TRACKER AREA MAGHRIB -->
+
+                    <!-- TRACKER AREA ISHA'A -->
+                    <div id="isha">
+                      <!-- TITLE TRACKER -->
+                      <div
+                        class="title-tracker d-flex justify-content-center text-lowercase mt-5"
+                      >
+                        <span class="text-center"
+                          ><h6>Isha'a</h6>
+                          &#8211; the night prayer. It is a four Rakat Salaah.
+                        </span>
+                      </div>
+                      <!-- TITLE TRACKER -->
+
+                      <!-- START CHECKLIST -->
+                      <div class="form-check ps-0">
+                        <ul
+                          id="checklist"
+                          class="checklist d-flex justify-content-center mt-2 col-lg-8 col-12"
+                        ></ul>
+                      </div>
+                      <!-- END CHECKLIST -->
+
+                      <!-- START PROGRESS -->
+                      <div
+                        id="progress"
+                        class="progress mt-4"
+                        role="progressbar"
+                        aria-label="Basic example"
+                        aria-valuenow="0"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      >
+                        <div
+                          id="progress-bar"
+                          class="progress-bar"
+                          style="width: 0%"
+                        ></div>
+                      </div>
+                      <!-- END PROGRESS -->
+                    </div>
+                    <!-- TRACKER AREA ISHA'A -->
+                  </div>
+                </div>
+                <!-- END PRAYER TRACKER  -->
+
+                <!-- START PRAYER TIMES -->
+                <div class="rk-prayer mt-5">
+                  <div class="rk-prayer-title text-center">
+                    <h3 class="text-uppercase fw-light">
+                      Ramadan <span class="fw-bold">supplications.</span>
+                    </h3>
+                    <p>
+                      "This future will be added on the first day of the month
+                      Ramadan El Kareem so is too much nearby enjoy our site for
+                      give some help and to help too, many ideas will add in the
+                      future don't miss it see you soon."
+                    </p>
+                  </div>
+                  <div class="prayer-times-img">
+                    <a href="supplications.html" target="_blank"
+                      ><img
+                        src="images/supplications.webp"
+                        alt="Islamic-prayer-times" />
+                      <div class="prayer-img-overlay">
+                        <i class="fa-solid fa-magnifying-glass"></i></div
+                    ></a>
+                  </div>
+                </div>
+                <!-- END PRAYER TRACKER  -->
+
+                <!-- START INSPIRATIONAL STORIES -->
+                <div class="rk-prayer mt-5">
+                  <div class="rk-prayer-title text-center">
+                    <h3 class="text-uppercase fw-light">
+                      INSPIRATIONAL <span class="fw-bold">STORIES.</span>
+                    </h3>
+                    <p>
+                      "This future will be added on the first day of the month
+                      Ramadan El Kareem so is too much nearby enjoy our site for
+                      give some help and to help too, many ideas will add in the
+                      future don't miss it see you soon."
+                    </p>
+                  </div>
+                  <div class="prayer-times-img">
+                    <a href="stories.html" target="_blank"
+                      ><img
+                        src="images/stories.webp"
+                        alt="Islamic-prayer-times" />
+                      <div class="prayer-img-overlay">
+                        <i class="fa-solid fa-magnifying-glass"></i></div
+                    ></a>
+                  </div>
+                </div>
+                <!-- END INSPIRATIONAL STORIES  -->
+              </div>
+            </div>
+          </div>
+        </nav>
+        <!-- END NAVBAR -->
+
+        <!-- START THE MAIN PAGE -->
+        <section class="container text-center">
+          <!-- START THE MAIN PAGE TEXT -->
+          <div class="main-text">
+            <div class="main-image">
+              <img src="images/ramadan.png" alt="ramadan" />
+              <p class="mt-4">
+                Ramadan is a holy month of fasting, introspection and prayer for
+                Muslims, the followers of Islam. It is celebrated as the month
+                during which Muhammad received the initial revelations of the
+                Quran, the holy book for Muslims. Fasting is one of the five
+                fundamental principles of Islam.
+              </p>
+            </div>
+          </div>
+          <!-- END THE MAIN PAGE TEXT -->
+
+          <!-- START COUNTDOWN TIMER -->
+          <div
+            id="countdown-timer"
+            data-end-date="03/22/2023"
+            class="countdown-timer d-inline-flex justify-content-center text-lowercase"
+          >
+            <img class="d-none" src="images/book.png" alt="islamic" />
+            <div class="active">
+              <span id="days"></span>
+              <div class="timer-text">Days</div>
+            </div>
+            <div>
+              <span id="hours"></span>
+              <div class="timer-text">Hours</div>
+            </div>
+            <div>
+              <span id="minutes"></span>
+              <div class="timer-text">Minutes</div>
+            </div>
+            <div>
+              <span id="seconds"></span>
+              <div class="timer-text">Seconds</div>
+            </div>
+          </div>
+          <!-- END COUNTDOWN TIMER -->
+        </section>
+        <div class="islamic-icon d-flex d-none"></div>
+        <!-- END THE MAIN PAGE -->
+      </div>
+    </main>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/ramadan.script.js"></script>
+  </body>
+</html>

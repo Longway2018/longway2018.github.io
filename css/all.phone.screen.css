@@ -1,0 +1,32 @@
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  main {
+    background: url(../images/background-m2.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-attachment: local;
+  }
+
+  main .hamburger-menu {
+    margin-right: 1rem !important;
+  }
+
+  main .hamburger-menu.active {
+    margin-right: 3rem !important;
+  }
+
+  section .main-image img {
+    max-width: 200px;
+    padding: 0;
+  }
+
+  section .main-image p {
+    font-size: 3.2vw;
+    margin-top: 1rem !important;
+  }
+
+  section .countdown-timer {
+    margin-top: 0.7rem;
+    margin-bottom: 0;
+  }
+}
