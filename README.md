@@ -27,6 +27,7 @@ We welcome contributions to our website! If you would like to contribute, please
 1. Fork the repository
 2. Create a new branch with your changes
 3. Submit a pull request to merge your changes into the main branch
+if have any idea i will be happy to hear.
 
 
 ## License
